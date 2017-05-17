@@ -14,17 +14,18 @@ This theme is property of Adam Dachis and is not available for public use.
 /*** GLOBAL : GENERAL STYLE DEFAULTS ***/
 html
 {
-	margin: 0;
-	padding: 0;
+	margin: 30px;
+	padding: 10px;
 }
 body
 {
-	background: #0FE7C0;
+
+	background: #ff99cc;
 	margin: 0;
 }
 body, input, textarea
 {
-	color: #222;    
+	color: #000000;    
 	font-family: Arial, sans-serif;
 	line-height: 1.5;
 }
@@ -74,11 +75,15 @@ a:visited
 /* Styles that affect the entire layout of the page */
 div#container
 {
-	margin: 4px 4px 4px 4px;
+	margin: 5px 5px 5px 5px;
 }
 div#content
 {
-	
+	width: 640px;
+	margin: 0 auto 0 auto;
+	padding: 0 50px 0 50px;
+	align-items: center;
+	background-color: #7bb3ff;
 }
 
 .header-container{
@@ -133,9 +138,7 @@ div#content
 {
     display: inline-block;
     float: left;
-    padding: 0 8px 0 4px;
-
-
+	  padding: 10px 8px 10px 5px;
 }
 
 .navbar-icecream
@@ -146,7 +149,7 @@ div#content
 {
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #E7330F;
+	color: #9e379f;
 	font-size: 12px;
 	opacity: 0.7;
 	letter-spacing: 0.05em;
@@ -155,7 +158,7 @@ div#content
 }
 .navbar-icecream li a:hover
 {
-	color: #fff;
+	color: #e86af0;
 }
 
 .navbartwo{
@@ -244,6 +247,13 @@ h1.page-title
 }
 
 /* Media Alignment */
+.aligncenter
+{
+	/* Style for center-aligned images in posts */
+	padding: 5px auto 5px auto;
+	float: center;
+}
+
 .alignright
 {
 	/* Style for right-aligned images in posts */
