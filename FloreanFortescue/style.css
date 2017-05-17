@@ -1,13 +1,8 @@
 /*
-Theme Name: Blank
-Theme URI:
+Theme Name: Florean Fortescue's Parlour Ice Cream
 Description: WordPress theme starter pack for faster design and development.
-Author: Lifehacker
-Author URI: http://lifehacker.com
+Author: Team 14
 Version: 0.1
-Tags: lifehacker
-
-This theme is property of Adam Dachis and is not available for public use.
  
 */
 
@@ -85,12 +80,21 @@ div#content
 	background-color: #7bb3ff;
 }
 
-.header-container{
-	padding: 50px 0 0 50px;
-	position: relative;
-	display: block;
-	height: 100px;
+img.center{
+	padding-left: 20%;
 }
+.header-container{
+	padding: 10px 0 0 50px;
+	position: relative;
+	display:block;
+	height: 100px;
+	padding-left: 45%;
+}
+
+.header-logo{
+	height: 0;
+}
+
 
 /*** HEADER : MENU ***/
 
@@ -101,6 +105,7 @@ div#content
 	bottom: 0;
 	left: 0;
 	right: 0;
+
 }
 
 .navbar{
@@ -386,6 +391,8 @@ div#footer
 
 
 /*** YOUR CSS ***/
+
+
 
 
 
