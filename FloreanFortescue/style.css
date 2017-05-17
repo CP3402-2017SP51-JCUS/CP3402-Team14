@@ -14,8 +14,8 @@ This theme is property of Adam Dachis and is not available for public use.
 /*** GLOBAL : GENERAL STYLE DEFAULTS ***/
 html
 {
-	margin: 30px;
-	padding: 10px;
+	margin: 30px 30px 30px 30px;
+	padding: 0;
 }
 body
 {
@@ -75,21 +75,21 @@ a:visited
 /* Styles that affect the entire layout of the page */
 div#container
 {
-	margin: 5px 5px 5px 5px;
+	margin: 0;
 }
 div#content
 {
-	width: 640px;
-	margin: 0 auto 0 auto;
-	padding: 0 50px 0 50px;
+	margin: 30px auto 0 auto;
+	padding: 10px 50px 50px 10px;
 	align-items: center;
 	background-color: #7bb3ff;
 }
 
 .header-container{
+	padding: 50px 0 0 50px;
 	position: relative;
 	display: block;
-	height: 326px;
+	height: 100px;
 }
 
 /*** HEADER : MENU ***/
@@ -121,12 +121,11 @@ div#content
 	border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-
-
 .navbar-icecream ul
 {
     list-style: none;
     margin: 0;
+	padding-left: 0px;
 }
 
 .navbar-icecream ul ul
@@ -138,7 +137,7 @@ div#content
 {
     display: inline-block;
     float: left;
-	  padding: 10px 8px 10px 5px;
+	padding: 10px 5px 10px 5px;
 }
 
 .navbar-icecream
@@ -150,7 +149,7 @@ div#content
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #9e379f;
-	font-size: 12px;
+	font-size: 24px;
 	opacity: 0.7;
 	letter-spacing: 0.05em;
 	background: none; 
@@ -158,7 +157,7 @@ div#content
 }
 .navbar-icecream li a:hover
 {
-	color: #e86af0;
+	color: #ffffff;
 }
 
 .navbartwo{
@@ -179,8 +178,6 @@ div#content
 	border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-
-
 .navbar-icecreamtwo ul
 {
     list-style: none;
@@ -196,7 +193,7 @@ div#content
 {
     display: inline-block;
     float: right;
-    padding: 0 8px 0 4px;
+    padding: 10px 5px 10px 5px;
 
 
 }
@@ -209,8 +206,8 @@ div#content
 {
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #E7330F;
-	font-size: 12px;
+	color: #9e379f;
+	font-size: 24px;
 	opacity: 0.7;
 	letter-spacing: 0.05em;
 	background: none; 
@@ -218,7 +215,7 @@ div#content
 }
 .navbar-icecreamtwo li a:hover
 {
-	color: #fff;
+	color: #ffffff;
 }
 
 
