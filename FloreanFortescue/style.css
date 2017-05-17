@@ -14,17 +14,17 @@ This theme is property of Adam Dachis and is not available for public use.
 /*** GLOBAL : GENERAL STYLE DEFAULTS ***/
 html
 {
-	margin: 0;
-	padding: 0;
+	margin: 30px;
+	padding: 10px;
 }
 body
 {
-	background: #fff;
+	background: #ff99cc;
 	margin: 0;
 }
 body, input, textarea
 {
-	color: #222;    
+	color: #000000;    
 	font-family: Arial, sans-serif;
 	line-height: 1.5;
 }
@@ -74,11 +74,15 @@ a:visited
 /* Styles that affect the entire layout of the page */
 div#container
 {
-	margin: 4px 4px 4px 4px;
+	margin: 5px 5px 5px 5px;
 }
 div#content
 {
-	
+	width: 640px;
+	margin: 0 auto 0 auto;
+	padding: 0 50px 0 50px;
+	align-items: center;
+	background-color: #7bb3ff;
 }
 
 
@@ -98,7 +102,7 @@ div#content
 {
     display: inline;
     float: left;
-	padding: 0 8px 0 4px;
+	padding: 10px 8px 10px 5px;
 }
 .menu-item
 {
@@ -108,11 +112,11 @@ div#content
 {
 	font-size: 30px;
 	text-decoration: none;
-	color: #3eaf00;
+	color: #9e379f;
 }
 .menu-item a:hover
 {
-	color: #5d8a05;
+	color: #e86af0;
 }
 
 
@@ -142,6 +146,13 @@ h1.page-title
 }
 
 /* Media Alignment */
+.aligncenter
+{
+	/* Style for center-aligned images in posts */
+	padding: 5px auto 5px auto;
+	float: center;
+}
+
 .alignright
 {
 	/* Style for right-aligned images in posts */
