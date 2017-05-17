@@ -153,4 +153,22 @@
 
 	    return false;
 	} // end is_sidebar_active
+
+
+	// New Navigation Bar Creation
+	function icecream_register_nav_menu(){
+		register_nav_menu ('custom_menu', 'Header Navigation Menu');
+
+	}
+
+	add_action('after_setup_theme', 'icecream_register_nav_menu');
+
+
+	function icecreamtwo_register_nav_menu(){
+		register_nav_menu ('second_menu', 'Header Navigation Menu2');
+
+	}
+
+	add_action('after_setup_theme', 'icecreamtwo_register_nav_menu');
+
 ?>

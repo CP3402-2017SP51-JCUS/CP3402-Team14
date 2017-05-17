@@ -25,15 +25,31 @@
 <body>
 <div id="wrapper" class="hfeed">
     <div id="header">
-        <div id="masthead">
- 
-            <div id="access">
-				<!--<div class="skip-link"><a href="#content" title="<?php _e( 'Skip to content', 'hbd-theme' ) ?>"><?php _e( 'Skip to content', 'hbd-theme' ) ?></a></div>-->
-				<?php #wp_page_menu( 'sort_column=menu_order' ); ?>
-				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header' ) ); ?>
-            </div><!-- #access -->
- 			
-        </div><!-- #masthead -->
+        <header class="header-container">
+            <div id="masthead">
+                
+                <div class="nav-container">
+                    <nav class="navbar navbar-default navbar-icecream">
+                    <?php
+                        wp_nav_menu(array(
+                                'theme_location' => 'custom_menu',
+                                'container' => false,
+                                'menu_class' => 'nav navbar-nav'
+                            ));
+                    ?>
+
+                    <nav class="navbartwo navbar-default navbar-icecreamtwo">
+                    <?php
+                        wp_nav_menu(array(
+                                'theme_location' => 'second_menu',
+                                'container' => false,
+                                'menu_class' => 'nav navbar-nav'
+                            ));
+                    ?>
+                </div> 
+     			
+            </div><!-- #masthead -->
+        </header>
     </div><!-- #header -->
  
     <div id="main">
