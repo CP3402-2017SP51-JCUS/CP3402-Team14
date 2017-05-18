@@ -86,8 +86,13 @@ img.center{
 .header-container{
 	padding: 10px 0 0 50px;
 	position: relative;
-	display: block;
+	display:block;
 	height: 100px;
+	padding-left: 45%;
+}
+
+.header-logo{
+	height: 0;
 }
 
 .header-logo{
