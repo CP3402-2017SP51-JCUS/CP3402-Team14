@@ -15,7 +15,7 @@ html
 body
 {
 
-	background: #ff99cc;
+	background: #493267;
 	margin: 0;
 }
 body, input, textarea
@@ -52,15 +52,15 @@ p
 }
 a
 {
-	color: #0a77e6;
+	color: #9e379f;
 }
 a:hover
 {
-	color: #065c88;
+	color: #e86af0;
 }
 a:visited
 {
-	color: #8b46d1;
+	color: #e86af0;
 }
 
 
@@ -77,7 +77,7 @@ div#content
 	margin: 30px auto 0 auto;
 	padding: 10px 50px 50px 10px;
 	align-items: center;
-	background-color: #7bb3ff;
+	background-color: #0ce2ff;
 }
 
 img.center{
@@ -93,8 +93,10 @@ img.center{
 
 .header-logo{
 	height: 0;
+	width: 60%;
+	margin-top: -20px;
+	margin-left: -60px;
 }
-
 
 /*** HEADER : MENU ***/
 
@@ -153,7 +155,7 @@ img.center{
 {
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #9e379f;
+	color: #e86af0;
 	font-size: 24px;
 	opacity: 0.7;
 	letter-spacing: 0.05em;
@@ -162,7 +164,7 @@ img.center{
 }
 .navbar-icecream li a:hover
 {
-	color: #ffffff;
+	color: #00fffa;
 }
 
 .navbartwo{
@@ -211,7 +213,7 @@ img.center{
 {
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #9e379f;
+	color: #e86af0;
 	font-size: 24px;
 	opacity: 0.7;
 	letter-spacing: 0.05em;
@@ -220,7 +222,7 @@ img.center{
 }
 .navbar-icecreamtwo li a:hover
 {
-	color: #ffffff;
+	color: #00fffa;
 }
 
 
