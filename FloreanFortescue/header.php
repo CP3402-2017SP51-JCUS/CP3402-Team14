@@ -25,7 +25,11 @@
 <body>
 <div id="wrapper" class="hfeed">
     <div id="header">
+        <img src="/wordpress/wp-content/themes/FloreanFortescue/img/FF_Title_Stacked.png" class="center">
         <header class="header-container">
+            <div class="header-logo"> 
+                 <img src="/wordpress/wp-content/themes/FloreanFortescue/img/FF_Logo_Design2.png">
+            </div>
             <div id="masthead">
                 
                 <div class="nav-container">
@@ -37,7 +41,7 @@
                                 'menu_class' => 'nav navbar-nav'
                             ));
                     ?>
-
+                   
                     <nav class="navbartwo navbar-default navbar-icecreamtwo">
                     <?php
                         wp_nav_menu(array(
