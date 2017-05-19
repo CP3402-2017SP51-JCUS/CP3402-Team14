@@ -25,10 +25,10 @@
 <body>
 <div id="wrapper" class="hfeed">
     <div id="header">
-        <img src="../wp/wp-content/themes/FloreanFortescue/img/FF_Title_Stacked.png" class="center">
+        <img src="/wp-content/themes/FloreanFortescue/img/FF_Title_Stacked.png" class="center">
         <header class="header-container">
             <div class="header-logo"> 
-                 <img src="../wp/wp-content/themes/FloreanFortescue/img/FF_Logo_Design2.png">
+                 <img src="/wp-content/themes/FloreanFortescue/img/FF_Logo_Design2.png">
             </div>
             <div id="masthead">
                 <div class="nav-container">
