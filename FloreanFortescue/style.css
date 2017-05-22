@@ -52,8 +52,8 @@ p
 }
 a
 {
-	color: #9e379f;
-	/*color: #5a0999;*/
+	/*color: #9e379f;*/
+	color: #5a0999;
 }
 a:hover
 {
@@ -78,8 +78,8 @@ div#content
 	margin: 30px auto 0 auto;
 	padding: 10px 50px 50px 10px;
 	align-items: center;
-	background-color: #0ce2ff;
-	/*background-color: #147772; */
+	/*background-color: #0ce2ff;*/
+	background-color: #147772;
 }
 
 img.center{
