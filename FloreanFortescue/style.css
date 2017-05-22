@@ -53,6 +53,7 @@ p
 a
 {
 	color: #9e379f;
+	/*color: #5a0999;*/
 }
 a:hover
 {
@@ -78,6 +79,7 @@ div#content
 	padding: 10px 50px 50px 10px;
 	align-items: center;
 	background-color: #0ce2ff;
+	/*background-color: #147772; */
 }
 
 img.center{
@@ -120,6 +122,7 @@ img.center{
 
 .navbar-icecream{
 	text-align: center;
+	color: #e86af0;
 	border:none;
 	border-radius:0;
 	min-height: auto;
